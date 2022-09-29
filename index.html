@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="img" class="img">
+        <img id="wild-west" class="wild-west" src="./img/wild-west.jpg" alt="">
+    </div>
+    <div class="buttons">
+        <button id="brightness" class="brightness-btn">
+            brightness
+        </button>
+        <button id="saturate" class="saturate-btn">
+            Sharpening
+        </button>
+        <button id="contrast" class="contrast-btn">
+            contrast
+        </button>
+    </div>
+    <form id="buttons-input-one" class="buttons-input">
+        <input class="brightness-input" id="brightness-input" type="range">
+        <button id="brightnessBtn" class="one__btn">add</button>
+    </form>
+    <form id="buttons-input-two" class="buttons-input">
+        <input class="saturate-input" id="saturate-input" type="range">
+        <button id="saturateBtn" class="two__btn">add</button>
+    </form>
+    <form id="buttons-input-three" class="buttons-input">
+        <input class="contrast-input" id="contrast-input" type="range">
+        <button  id="contrastBtn" class="three__btn">add</button>
+    </form>
+    <script src="./js/app.js"></script>
+</body>
+</html>

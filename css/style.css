@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.img{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.wild-west{
+    width: 900px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.brightness-btn{
+    width: 100px;
+    height: 55px;
+    margin-right: 10px;
+    border: none;
+    background-color: dodgerblue;
+    font-size: 1rem;
+    color: #fff;
+}
+
+.saturate-btn{
+    width: 100px;
+    height: 55px;
+    margin-right: 10px;
+    border: none;
+    background-color: dodgerblue;
+    font-size: 1rem;
+    color: #fff;    
+}
+
+.contrast-btn{
+    width: 100px;
+    height: 55px;
+    margin-right: 10px;  
+    margin-bottom: 10px;
+    border: none;
+    background-color: dodgerblue;
+    font-size: 1rem;
+    color: #fff;
+}
+
+.buttons-input{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.brightness-input{
+    display: none;
+    margin-right: 10px;
+}
+
+.saturate-input{
+    display: none;
+    margin-right: 10px;
+}
+
+.contrast-input{
+    display: none;
+}
+.one__btn{
+    width: 100px;
+    height: 30px;
+    border: none;
+    background-color: dodgerblue;
+    font-size: 1rem;
+    color: #fff;
+    display: none;
+}
+.two__btn{
+    width: 100px;
+    height: 30px;
+    border: none;
+    background-color: dodgerblue;
+    font-size: 1rem;
+    color: #fff;
+    display: none;
+}
+.three__btn{
+    width: 100px;
+    height: 30px;
+    border: none;
+    background-color: dodgerblue;
+    font-size: 1rem;
+    color: #fff;
+    display: none;
+}
